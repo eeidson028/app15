@@ -1,0 +1,340 @@
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+
+    <div id="nav">
+      <p id="title">Monthly Financials</p>
+      <p id="filter">Filter: <span>Monthly</span></p>
+      
+    <div id="top_nav">
+      <a id="first_nav_link">Home</a>
+      <a>Revenue</a>
+      <a>Costs</a>
+      <a>Financials</a>
+      <a>Customer</a>
+    </div>
+      
+    </div>
+
+    <div id="container_2">
+  
+      <div class="box-1">
+        <p>Cash Balance</p>
+        <div class="number-percent-bottom">
+        <p>${{BL}}</p>
+        <div class="arrow" >
+          <img src="/static/arrow-up.png">
+          <p>5%</p>
+        </div>
+      </div>
+      </div>
+      
+      <div class="box-1">
+        <p>Annual Profit</p>
+        <div class="number-percent-bottom">
+          <p>${{NT}}</p>
+          <div class="arrow" >
+            <img src="/static/arrow-down.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Revenue</p>
+        <div class="number-percent-bottom">
+          <p>${{CT}}</p>
+          <div class="arrow" >
+            <img src="/static/arrow-up.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Costs</p>
+        <div class="number-percent-bottom">
+          <p>${{DT}}</p>
+          <div class="arrow" >
+            <img src="/static/arrow-down.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Debt</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-up.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Sales</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-down.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Operations</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-up.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Equity</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-down.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Year Prediction</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-up.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Financial Health</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-down.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="box-1">
+        <p>New Customers</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-up.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>ROI</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-up.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Web Customers</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-down.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Web Growth</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-up.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Avg. Transaction</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-down.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box-1">
+        <p>Net Promoter Score</p>
+        <div class="number-percent-bottom">
+          <p>$13,400</p>
+          <div class="arrow" >
+            <img src="/static/arrow-up.png">
+            <p>5%</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="container_3">
+    
+      
+      <div class="graphss" id="graph1"></div>
+      <div class="graphss" id="graph2"></div>
+    
+    </div>
+
+  </body>
+
+  <script>
+
+
+var num = {{ CC|tojson }};
+var clas = {{ CLC|tojson }};
+
+
+var data = [
+  {
+    x: clas,
+    y: num,
+    type: 'bar',
+    marker: {color: 'rgb(115, 171, 255)',
+      opacity: .7,
+        line: {
+          color: 'rgba(0,150,0,0.7)',
+          width: 1.}}
+  }
+];
+    
+    var layout = {
+      
+      title: 'Top 15 Costs',
+  font:{
+    family: 'Open Sans',
+    color: 'rgb(115, 171, 255, .45)'
+  },
+      paper_bgcolor: 'rgba(0,0,0,.85)',
+      plot_bgcolor: 'rgba(0,0,0,.85)',
+      xaxis: {
+        tickfont: {
+      family: 'Open Sans',
+      size: 10,
+      color: 'white'
+    },tickangle: '30',
+        showgrid: false,
+        color: 'rgba(255,255,255,.75)',
+        zeroline: true,
+        showline: true},
+        yaxis: {
+        showgrid: false,
+        zeroline: true,
+        color: 'rgba(255,255,255,.75)',
+        showline: true},
+      margin: {
+        l: 30,
+        r: 20,
+        b: 60,
+        t: 40,
+      }
+    };
+    
+    var config = {
+      displayModeBar: false, // this is the line that hides the bar.
+    };
+    
+    Plotly.newPlot('graph1', data, layout, config);
+    
+
+    var num = {{ RN|tojson }};
+var clas = {{ DAT|tojson }};
+
+
+var data = [
+  {
+    x: clas,
+    y: num,
+    type: 'bar',
+    marker: {color: 'rgb(115, 171, 255)',
+      opacity: .7,
+        line: {
+          color: 'rgba(0,150,0,0.7)',
+          width: 1.}}
+  }
+];
+    
+    var layout = {
+      title: 'Monthly Income',
+  font:{
+    family: 'Open Sans',
+    color: 'rgb(115, 171, 255, .45)'
+  },
+      paper_bgcolor: 'rgba(0,0,0,.85)',
+      plot_bgcolor: 'rgba(0,0,0,.85)',
+      xaxis: {
+        tickfont: {
+      family: 'Open Sans',
+      size: 10,
+      color: 'white',
+    },tickangle: '30',
+        showgrid: false,
+        color: 'rgba(255,255,255,.85)',
+        zeroline: true,
+        showline: true},
+        yaxis: {
+        showgrid: false,
+        zeroline: true,
+        color: 'rgba(255,255,255,.85)',
+        showline: true},
+      margin: {
+        l: 30,
+        r: 20,
+        b: 60,
+        t: 40,
+      }
+    };
+    
+    var config = {
+      displayModeBar: false, // this is the line that hides the bar.
+    };
+    
+    Plotly.newPlot('graph2', data, layout, config);
+    
+</script>    
+
+  
+</html>
